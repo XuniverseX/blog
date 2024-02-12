@@ -4,11 +4,11 @@
 
 # Site
 title: '孙浩华编程课程'
-subtitle: '时间：每天下午1:00 - 6:00'
+subtitle: '上课时间：每天下午 1:00 - 6:00'
 description: '孙浩华的博客'
 keywords:
 author: Haohua Sun
-language: zh-cn
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -33,6 +33,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+# default_layout: page
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -97,7 +98,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: fluid
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
